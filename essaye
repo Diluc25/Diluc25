@@ -1,0 +1,15 @@
+name: intro_programmation
+dependencies:
+- python>=3.5
+- anaconda
+- pip
+- numpy
+- matplotlib
+- tqdm
+- pyopengl
+- spyder
+- pip:
+  # works for regular pip packages
+  - pygame==2.0.0
+  - nose2
+  - scikit-image
